@@ -960,7 +960,7 @@ string BuildConfigCommentLine()
       ? (g_isNewsBlocked ? "News:BLOCK" : "News:OK")
       : "News:OFF";
 
-   string rejStr = StringFormat("RT:SimpleClose");
+   string rejStr = "RT:SimpleClose";
 
    return StringFormat("// TF:%s | %s | %s | Vol>=%.1f | %s | EA:%s",
                        tfs, hrStr, newsStr, VolumeAutoRatio, rejStr,
